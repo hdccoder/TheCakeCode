@@ -1,0 +1,128 @@
+body {
+  font-family: verdana;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form > * {
+  margin: 0.5rem;
+}
+
+.navbar{
+  display: flex;
+  gap:1em;
+  justify-content: center;
+ }
+.logout{
+  float: right;
+  }
+.login{
+  font-weight: bold;
+  margin-right: auto;
+}
+
+  .loginContainer{
+    width:35%;
+    margin: auto;
+    margin-top: 5em;
+    padding:10px;
+    border-radius: 5px;
+    border:1px double goldenrod;
+  }
+  .parentContainer{
+    width:90%;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5em;
+    padding:10px;
+    border-radius: 5px;
+    border:1px double goldenrod;
+  }
+  .loginform{
+    width:25em;
+    height:3em;
+    border-radius: 5px;
+  }
+  .loginLabels{
+    width:25em;
+    height:1em;
+    border-radius: 5px;
+  }
+.navbarLogin{
+  float: right;
+}
+.product{
+  height: 2 em;
+  cursor: pointer;
+  /* border:1px double black; */
+}
+.rating{
+  width:8em;
+}
+.reviewHeadline{
+  width:60em;
+  height:3em;
+  border-radius: 5px;
+}
+.reviewText{
+  width:60em;
+  height:10em;
+  border-radius: 5px;
+}
+.reviewContainer{
+  width:75%;
+  margin: auto;
+  margin-top: 2em;
+  padding:1px;
+  border-radius: 5px;
+  border:1px double goldenrod;
+}
+.reviewSubmit{ 
+  width:fit-content;
+  align-self: flex-end;
+}
+.addProductContainer{
+  width:75%;
+  margin: auto;
+  margin-top: 2em;
+  padding:1px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap:1em;
+  border:1px double goldenrod;
+}
+
+.productText{
+  width:60em;
+  height:3em;
+  border-radius: 5px;
+}
+.productPrice{
+  width:6em;
+  height:3em;
+  border-radius: 5px;
+}
+.addProductButton{
+  width:fit-content;
+  height: 3em;
+  align-self: flex-end;
+  border-radius: 5px;
+}
+.orderData{
+  border: 1px soild gray;
+}
+
+.vipDiscount {
+  color:#b570ff;
+}
+/* MUI styles */
+/* .productCard:hover{
+  cursor: pointer;
+} */
+.reviews{
+align-self: flex-end;
+}
